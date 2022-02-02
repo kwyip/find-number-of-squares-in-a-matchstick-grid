@@ -25,32 +25,13 @@
 
 ---
 
-## Introduction[![](./docs/img/pin.svg)](#introduction)
-
-**AREG SDK** is a developer-friendly, interface-centric real-time asynchronous communication engine to enable [distributed-](https://en.wikipedia.org/wiki/Distributed_computing) and [mist-](https://csrc.nist.gov/publications/detail/sp/500-325/final)computing, where connected Things interact and provide services, as if they act like thin distributed servers.
-
-
----
-
 ## Table of contents[![](./docs/img/pin.svg)](#table-of-contents)
 1. [Motivation](#motivation)
-2. [More than embedded](#more-than-embedded)
-3. [Composition](#composition)
-4. [Software build](#software-build)
-5. [Software integration](#software-integration)
-   - [Multicast router](#mulitcast-router)
-   - [Logging service](#logging-service)
-   - [Development](#development)
-6. [Use cases and benefits](#use-cases-and-benefits)
-   - [Distributes solutions](#distributed-solution)
-   - [Driverless devices](#driverless-devices)
-   - [Real-time solutions](#real-time-solutions)
-   - [Digital twin](#digital-twin)
-   - [Simulation and test automations](#simulation-and-test-automations)
-7. [Examples](#examples)
-8. [Licensing](#licensing)
-9. [Call for action](#call-for-action)
-
+2. [File Input format](#FileInputformat)
+   - [Example](#example)
+4. [Solution](#Solution)
+5. [Implementation](#Implementation)
+6. [Conclusion](#Conclusion)
 ---
 
 ## Motivation[![](./docs/img/pin.svg)](#motivation)
@@ -65,7 +46,7 @@ The first array encodes the vertical-oriented matchsticks “I” in row-major o
 A boolean value of “true” (1) indicates that a matchstick is present at that location, while a
 boolean value of “false” (0) indicates that there is no matchstick at that location.
 
-### Example:
+### Example:[![](./docs/img/pin.svg)](#Example)
 ![Alt text](https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_3.png) 
 
 This is equivalent to the input file of:
@@ -189,7 +170,7 @@ One way is to solve the problem is to use dynamic programming. The idea is illus
 # We want to start with i=(N-1),j=(M-1) point, and iterate until i=0,j=0.
 ```
 
-## Implementation
+## Implementation[![](./docs/img/pin.svg)](#Implementation)
 We want to be more ambitious. Why not along the algorithm also store the number of squares of size `s = 1 … size`?
 
 ```
@@ -217,7 +198,7 @@ Number of squares: 16
 [‘4 x 4: 1\n’, ‘3 x 3: 1\n’, ‘2 x 2: 5\n’, ‘1 x 1: 9\n’, ‘Number of squares: 16’]
 
 
-## Conclusion
+## Conclusion[![](./docs/img/pin.svg)](#Conclusion)
 
 We implemented a dynamic-programming based algorithm in Python. This program will work for any size of N x N matchstick grid and any configuration of matchsticks. In addition to outputting the number of squares, this program will also count of the number of squares for each size, from 1 to N.
 
