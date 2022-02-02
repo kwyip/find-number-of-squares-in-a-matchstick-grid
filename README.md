@@ -48,10 +48,14 @@ A boolean value of “true” (1) indicates that a matchstick is present at that
 boolean value of “false” (0) indicates that there is no matchstick at that location.
 
 ### Example:[![](./docs/img/pin.svg)](#Example)
-![Alt text](https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_3.png) 
+<figure>
+<img src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_3.png" width="270" class="center"/>
+</figure>
 
 This is equivalent to the input file of:
-![Alt text](https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_4.png) 
+<figure>
+<img src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_4.png" width="270" class="center"/>
+</figure>
 
 
 ## Solution[![](./docs/img/pin.svg)](#Solution)
