@@ -206,7 +206,7 @@ Number of squares: 16
 
 ## Conclusion[![](./docs/img/pin.svg)](#Conclusion)
 
-We implemented a dynamic-programming based algorithm in Python. This program will work for any size of <em>n</em> x <em>n/em> matchstick grid and any configuration of matchsticks. In addition to outputting the number of squares, this program will also count of the number of squares for each size, from 1 to <em>n</em>.
+We implemented a dynamic-programming based algorithm in Python. This program will work for any size of <em>n</em> x <em>n</em> matchstick grid and any configuration of matchsticks. In addition to outputting the number of squares, this program will also count of the number of squares for each size, from 1 to <em>n</em>.
 
 <em>The whole Jupyter notebook is at</em>:
 
