@@ -8,7 +8,7 @@
 ---
 
 <!-- markdownlint-disable -->
-## Project Status (#project-status)
+## Project Status 
 <table class="no-border">
   <tr>
     <!--<td><img src="https://github.com/aregtech/areg-sdk/actions/workflows/c-cpp.yml/badge.svg" alt="C++ compiltation"/></td>-->
@@ -22,3 +22,11 @@
     <td><img src="https://img.shields.io/badge/CPU-x86%20%7C%20x86__64%20%7C%20arm%20%7C%20aarch64-blue?style=flat&logo=amd&logoColor=b0c0c0&labelColor=363D44" alt="CPU Architect"/></td>
   </tr>
 </table>
+
+---
+
+## Introduction[![](./docs/img/pin.svg)](#introduction)
+
+**AREG SDK** is a developer-friendly, interface-centric real-time asynchronous communication engine to enable [distributed-](https://en.wikipedia.org/wiki/Distributed_computing) and [mist-](https://csrc.nist.gov/publications/detail/sp/500-325/final)computing, where connected Things interact and provide services, as if they act like thin distributed servers.
+
+---
