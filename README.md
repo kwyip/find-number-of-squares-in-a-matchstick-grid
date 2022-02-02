@@ -49,7 +49,7 @@ boolean value of “false” (0) indicates that there is no matchstick at that l
 
 ### Example:[![](./docs/img/pin.svg)](#Example)
 <figure>
-<img src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_3.png" width="270" class="center"/>
+<img src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_3.png" width="270" height="270" class="center"/>
 </figure>
 
 This is equivalent to the input file of:
