@@ -55,7 +55,8 @@
 
 ## Motivation[![](./docs/img/pin.svg)](#motivation)
 
-![Alt text](https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_1.png| width=70) 
+<img src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_1.png" width="70"/>
+
 In the above figure, are you able to count how many squares in the 4 × 4 square grid? There are 16. In general, given any N × N matchstick grid comprised of matchsticks, we would like to find out a way to calculate the total number of squares from size 1 × 1 to N × N. (Inspired from this [puzzle](https://matchstickpuzzles.blogspot.com/2011/06/55-4x4-square-how-many-squares.html)).
 
 ## File Input format[![](./docs/img/pin.svg)](#FileInputformat)
