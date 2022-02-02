@@ -210,7 +210,7 @@ We implemented a dynamic-programming based algorithm in Python. This program wil
 
 <em>The whole Jupyter notebook is at</em>:
 
-<em>https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/find-number-of-squares-in-a-matchstick-grid%20.ipynb </em>
+<em>https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/find-number-of-squares-in-a-matchstick-grid%20.ipynb</em>
 
 
 ---
