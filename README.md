@@ -8,7 +8,7 @@
 ---
 
 <!-- markdownlint-disable -->
-## Project Status[![]](#project-status)
+## Project Status (#project-status)
 <table class="no-border">
   <tr>
     <!--<td><img src="https://github.com/aregtech/areg-sdk/actions/workflows/c-cpp.yml/badge.svg" alt="C++ compiltation"/></td>-->
