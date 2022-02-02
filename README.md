@@ -1,5 +1,5 @@
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
-<a name="logo"><img align="center" src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_2.png" alt="AREG SDK Home" style="width:30%;height:30%"/></a>
+<a name="logo"><img align="center" src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_2.png" alt="square matchsticks" style="width:30%;height:30%"/></a>
 <br><br><strong>Find number of squares in a matchstick grid</strong>
 </h1>
 
@@ -39,10 +39,10 @@
 <img src="https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/blob/main/screenshot_1.png" width="270"/>
 </figure>
 
-In the above figure, are you able to count how many squares in the 4 × 4 square grid? There are 16. In general, given any N × N matchstick grid comprised of matchsticks, we would like to find out a way to calculate the total number of squares from size 1 × 1 to N × N. (Inspired from this [puzzle](https://matchstickpuzzles.blogspot.com/2011/06/55-4x4-square-how-many-squares.html)).
+In the above figure, are you able to count how many squares in the 4 × 4 square grid? There are 16. In general, given any <em>N</em> × <em>N</em> matchstick grid comprised of matchsticks, we would like to find out a way to calculate the total number of squares from size 1 × 1 to <em>N</em> × <em>N</em>. (Inspired from this [puzzle](https://matchstickpuzzles.blogspot.com/2011/06/55-4x4-square-how-many-squares.html)).
 
 ## File Input format[![](./docs/img/pin.svg)](#FileInputformat)
-The matchstick grid is encoded as two dimensional boolean arrays of size N × (N + 1).
+The matchstick grid is encoded as two dimensional boolean arrays of size <em>N</em> × (<em>N</em> + 1).
 The first array encodes the vertical-oriented matchsticks “I” in row-major order from the top-left corner, and the second array encodes the horizontal-oriented matchsticks “-” in column-major order also from the top-left corner.
 A boolean value of “true” (1) indicates that a matchstick is present at that location, while a
 boolean value of “false” (0) indicates that there is no matchstick at that location.
@@ -67,7 +67,7 @@ print(lines)
 
 [‘4\n’, ‘\n’, ‘1 0 1 1 1\n’, ‘1 1 1 1 1\n’, ‘1 1 1 1 1\n’, ‘1 0 1 1 1\n’, ‘\n’, ‘1 1 1 0 1\n’, ‘1 1 1 1 1\n’, ‘1 1 1 1 1\n’, ‘1 1 1 0 1\n’]
 
-`4` in the first means the size of matchstick grid. Now, let’s make two lists: `h_list` has dimension (n+1)x(n) and `v_list` has dimension (n)x(n+1), so both are counting matchsticks from top-left to bottom-right.
+`4` in the first means the size of matchstick grid. Now, let’s make two lists: `h_list` has dimension (<em>n</em>+1)x(<em>n</em>) and `v_list` has dimension (<em>n</em>)x(<em>n</em>+1), so both are counting matchsticks from top-left to bottom-right.
 
 ```
 # Let's make two lists: h_list has dimension (n+1)x(n) and v_list has dimension (n)x(n+1), so both are counting matchsticks from top-left to bottom-right.
@@ -200,16 +200,17 @@ print(conclusion)
 print(outputlist)
 ```
 Number of squares: 16
+
 [‘4 x 4: 1\n’, ‘3 x 3: 1\n’, ‘2 x 2: 5\n’, ‘1 x 1: 9\n’, ‘Number of squares: 16’]
 
 
 ## Conclusion[![](./docs/img/pin.svg)](#Conclusion)
 
-We implemented a dynamic-programming based algorithm in Python. This program will work for any size of N x N matchstick grid and any configuration of matchsticks. In addition to outputting the number of squares, this program will also count of the number of squares for each size, from 1 to N.
+We implemented a dynamic-programming based algorithm in Python. This program will work for any size of <em>N</em> x <em>N</em> matchstick grid and any configuration of matchsticks. In addition to outputting the number of squares, this program will also count of the number of squares for each size, from 1 to <em>N</em>.
 
-The whole Jupyter notebook is at:
+<em>The whole Jupyter notebook is at</em>:
 
-https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/
+<em>https://github.com/kwyip/find-number-of-squares-in-a-matchstick-grid/ </em>
 
 
 ---
